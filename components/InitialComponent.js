@@ -5,12 +5,13 @@ import style from "../styles/initialPage/StyleInitialPage"
 
 export default (props) => {
 
+    const[documento, setDocumento] = useState(props.data)
+
+    
     const changePage = () => {
         props.page('READ_QR')
     }
 
-    const documento = {}
-    
     return (
             <SafeAreaView style={style.container}>
                 <SafeAreaView style={style.viewReadQr}>   
@@ -29,7 +30,7 @@ export default (props) => {
                         <TextInput
                             style={style.input}
                             placeholder="Chave Documento"
-                            value={documento.chave}
+                            value={documento.chaveDocumento}
                         />
                     </SafeAreaView>
                 </SafeAreaView>

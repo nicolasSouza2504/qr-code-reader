@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.qrcodereader.app-mergeDebugResources-20:/values-v21/values-v21.xml",
+            "outputFile": "com.qrcodereader.app-mergeDebugResources-24:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/home/nicolas/.gradle/caches/transforms-3/be9a285d7d94d789380b4b7ef5365ae2/transformed/appcompat-1.4.1/res/values-v21/values-v21.xml",
@@ -23,6 +23,25 @@
                     }
                 },
                 {
+                    "source": "/home/nicolas/.gradle/caches/transforms-3/cfdc54a039c990bd7143778b3df4a898/transformed/media-1.0.0/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "266,269,273,277",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "18897,19065,19354,19650",
+                        "endLines": "268,271,275,279",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "19060,19223,19517,19812"
+                    }
+                },
+                {
                     "source": "/home/nicolas/.gradle/caches/transforms-3/08e1174eef2c209ea18090f1084adbcb/transformed/core-1.7.0/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
@@ -33,12 +52,12 @@
                         "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,264,265,266,267,268,271",
+                        "startLines": "2,3,4,5,264,265,272,276,280,283",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,237,304,18655,18771,18897,19023,19151,19323",
-                        "endLines": "2,3,4,5,264,265,266,267,270,275",
+                        "startOffsets": "55,173,237,304,18655,18771,19228,19522,19817,19989",
+                        "endLines": "2,3,4,5,264,265,272,276,282,287",
                         "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,232,299,363,18766,18892,19018,19146,19318,19670"
+                        "endOffsets": "168,232,299,363,18766,18892,19349,19645,19984,20336"
                     }
                 }
             ]

@@ -1,20 +1,21 @@
 import React, { useState } from "react"
 import { SafeAreaView, Text, Button} from "react-native"
 import style from "../styles/initialPage/StyleInitialPage"
+import QRCodeScanner from "react-native-qrcode-scanner"
+import { RNCamera } from "react-native-camera"
 
 export default (props) => {
-
-
-    const changePage = () => {
-        props.page('INITIAL_PAGE')
-    }
     
-    const barcodeRecognized = () => {
-        console.warn("BAR CODE RECONIZED")
+    const handleData = (data) => {
+        props.setData(JSON.parse(data.data))
+        props.page('INITIAL_PAGE')
     }
 
     return (
-            <Text>LER QR CODE</Text>
+        <QRCodeScanner
+            onRead={handleData}
+            flashMode={RNCamera.Constants.FlashMode.off}
+        />
     )
         
     

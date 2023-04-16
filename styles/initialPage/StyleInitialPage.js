@@ -25,25 +25,30 @@ const style = StyleSheet.create({
     icon: {        
         color: "#ffffff",
         margin: 10,        
-        fontSize: 85                     
+        fontSize: 65                     
     },      
     buttonIcon: {
-        width: 88,
-        height: 95,
+        width: 70,
+        height: 70,
         backgroundColor: "#005285",
         borderRadius: 15
 
     }, 
     textReadCode: {
-        fontSize: 20,
+        fontSize: 12,
     },
     inputsView: {
         flexDirection: "column",
-        marginLeft: 20,
-        marginRight: 20
+        marginLeft: 12,
+        marginRight: 12
     },
     input: {
-        marginTop: 5,
+        alignItems: "flex-start",
+        alignContent: "flex-start",
+        backgroundColor: "#f2f5fa",
+        fontSize: 12,
+        borderRadius: 5,
+        height: 35
     }
 })
 
