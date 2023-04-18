@@ -35,6 +35,7 @@ const style = StyleSheet.create({
 
     }, 
     textReadCode: {
+        fontColor: "black",
         fontSize: 12,
     },
     inputsView: {
